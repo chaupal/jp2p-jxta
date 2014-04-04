@@ -1,0 +1,5 @@
+# The list of Builtin Module Implementation Classes included with this distribution.
+# Used by PeerGroup Implementation.
+
+urn:jxta:uuid-deadbeefdeafbabafeedbabe000000090106 net.jxta.impl.endpoint.netty.NettyTransport Reference Implementation of the TCP Message Transport
+urn:jxta:uuid-E549DB3BCBCF4789A392B6100B78CC55F127AD1AADF0443ABF6FBDFD7909876906 net.jxta.impl.endpoint.netty.http.NettyHttpTunnelTransport HTTP tunneling message transport

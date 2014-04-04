@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="net.jp2p.endpoint.servlethttp">
+   <implementation class="net.jp2p.endpoint.servlethttp.osgi.OsgiComponent"/>
+   <reference bind="setAttendeeService" cardinality="0..n" interface="org.eclipselabs.osgi.ds.broker.IAttendeeService" name="IAttendeeService" policy="static" unbind="unsetAttendeeService"/>
+</scr:component>

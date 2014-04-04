@@ -1,0 +1,4 @@
+# The list of Builtin Module Implementation Classes included with this distribution.
+# Used by PeerGroup Implementation.
+
+urn:jxta:uuid-deadbeefdeafbabafeedbabe0000000A0106 net.jxta.impl.endpoint.servlethttp.ServletHttpTransport Reference Implementation of the HTTP Message Transport
